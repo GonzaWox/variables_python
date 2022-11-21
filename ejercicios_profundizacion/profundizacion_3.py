@@ -65,7 +65,7 @@ Alumno:
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
 
-nombre_completo = "Gonzalo Larrea"
+nombre_completo = str(input("Ingrese el nombre completo"))
 print(nombre_completo)
 nombre_lower = nombre_completo.lower()
 print(nombre_lower)
