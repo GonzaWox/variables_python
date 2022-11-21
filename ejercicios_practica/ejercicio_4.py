@@ -11,11 +11,11 @@
 # Ejemplos variables de texto
 
 # Ingrese tres palabras y arme un acrónimo con ellas
-palabra_1 = str(input('Ingrese palabra 1:'))
+# palabra_1 = str(input('Ingrese palabra 1:'))
 
-palabra_2 = str(input('Ingrese palabra 2:'))
+# palabra_2 = str(input('Ingrese palabra 2:'))
 
-palabra_3 = str(input('Ingrese palabra 3:'))
+# palabra_3 = str(input('Ingrese palabra 3:'))
 
 # Objetivo:
 # De cada palabra ingresada se utilizará
@@ -32,3 +32,18 @@ palabra_3 = str(input('Ingrese palabra 3:'))
 
 
 # Imprimir la variable acronimo en pantalla
+
+#.
+#Comienzo de codigo por Gonzalo Larrea ///
+
+palabra_1 = str(input('Ingrese la primer palabra:'))
+
+palabra_2 = str(input('Ingrese la segunda palabra:'))
+
+palabra_3 = str(input('Ingrese la tercer palabra:'))
+
+acronimo = palabra_1[0] + palabra_2[0] + palabra_3[0]
+
+print(acronimo)
+
+# Fin de codigo ///

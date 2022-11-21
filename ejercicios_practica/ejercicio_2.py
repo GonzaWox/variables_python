@@ -12,9 +12,9 @@
 
 # Ahora los valores a operar deben ser ingresados por
 # consola con la función "input" como se ve a continuación
-numero_1 = int(input('Ingrese por consola el primer número entero a operar:'))
+# numero_1 = int(input('Ingrese por consola el primer número entero a operar:'))
 
-numero_2 = int(input('Ingrese por consola el segundo número entero a operar:'))
+# numero_2 = int(input('Ingrese por consola el segundo número entero a operar:'))
 
 # Alumno: Imprima en pantalla los dos números enteros solicitados
 # print(....)
@@ -38,3 +38,26 @@ numero_2 = int(input('Ingrese por consola el segundo número entero a operar:'))
 
 
 # Imprima en pantalla todos los resultados
+
+
+#.
+# Comienzo de codigo por Gonzalo Larrea ///
+
+numero_1 = int(input("Ingrese el primer número: "))
+numero_2 = int(input("Ingrese el segundo número: "))
+
+
+print("numeros ingresados:")
+print(numero_1)
+print(numero_2)
+
+suma = numero_1 + numero_2
+resta = numero_1 - numero_2
+division = numero_1 / numero_2
+multiplicacion = numero_1 * numero_2
+
+print("la suma de dichos número es: ", suma)
+print("La resta de dichos números es: ", resta)
+print("La division de dichos números es ", division)
+print("La multiplicacion de dichos números es: ", multiplicacion)
+

@@ -1,4 +1,4 @@
-# CODE:1
+ # CODE:1
 # Tipos de variables [Python]
 # Ejercicios de práctica
 
@@ -29,3 +29,19 @@ numero_2 = 7
 
 
 # Imprimir en pantalla el resultado de la resta
+
+#.
+#.
+# Comienzo de codigo realizado por Gonzalo Larrea  ///
+
+suma = numero_1 + numero_2
+
+print ("el resultado de la suma de ", numero_1, "+ ", numero_2, "es ", suma)
+
+resta = numero_1 - numero_2
+
+print ("el resultado de la rsta de ", numero_1, "- ", numero_2, "es ", resta)
+
+
+# Fin de codigo  ///
+

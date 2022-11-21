@@ -11,9 +11,8 @@
 # Ejemplos variables de texto
 
 # Ingrese su primer nombre y luego su primer apellido
-nombre = str(input('Ingrese por consola su primer nombre:'))
-
-apellido = str(input('Ingrese por consola su primer apellido:'))
+# nombre = str(input('Ingrese por consola su primer nombre:'))
+# apellido = str(input('Ingrese por consola su primer apellido:'))
 
 # Alumno:
 # Imprima en pantalla su nombre y apellido
@@ -32,3 +31,21 @@ apellido = str(input('Ingrese por consola su primer apellido:'))
 # cantidad = len(....)
 
 # Imprimir en pantalla la variable cantidad
+
+#.
+#Comienzo de código por Gonzalo Larrea ///
+
+nombre = str(input("Ingrese un nombre: "))
+apellido = str(input("Ingrese un apellido: "))
+
+print("El nombre ingresado es: ", nombre)
+print("El apellido ingresado es: ", apellido)
+
+nombre_apellido = nombre + " " + apellido
+
+cantidad = len(nombre_apellido)
+
+print (nombre_apellido, "tiene ", cantidad, "de caracteres")
+
+# Fin de codigo ///
+

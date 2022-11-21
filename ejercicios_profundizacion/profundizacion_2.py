@@ -18,7 +18,7 @@
 Enunciado:
 El objetivo es realizar un programa que consulte por consola:
 - El nombre completo de una persona
-- El documento de identificación de una persona
+- El número de identificación de una persona
 - La edad de una persona
 - La altura de una persona
 
@@ -26,7 +26,7 @@ Finalmente el programa debe imprimir los contenidos
 de las variables generadas durante el programa en el siguiente
 formato, dos líneas de texto por separado (dos print separados):
 - Un print debe imprimir el nombre completo y el DNI.
-        Ej: Juan Carlos 35.205.070
+        Ej: Juan Carlos 35205070
 - El segundo print debe imprimir la edad y la altura.
         Ej: 38 1.70
 
@@ -37,9 +37,10 @@ Alumno:
   Recuerde en este caso utilizar el input junto a str.
 
 - Crear una una variable llamada identificacion
-  para almacenar el documento de identificación que usted
+  para almacenar el número de identificación que usted
   debe ingresar por consola con la función input.
-  Recuerde en este caso utilizar el input junto a str.
+  Recuerde en este caso utilizar el input junto a int.
+  IMPORTANTE: Solo ingresar números, sin puntos o guiones
 
 - Crear una una variable llamada edad
   para almacenar la edad que usted
@@ -55,3 +56,13 @@ Alumno:
 
 print('Sistema de ingreso de datos')
 # Empezar aquí la resolución del ejercicio
+
+nombre_completo = str(input("Ingrese su nombre completo: "))
+identificacion = int(input("Ingrese su numero de identificacion: "))
+edad = int(input("Ingrese su edad: "))
+altura = int(input("Ingrese su altura: "))
+
+print(nombre_completo, identificacion)
+print(edad, altura)
+
+#Fin del codigo ///

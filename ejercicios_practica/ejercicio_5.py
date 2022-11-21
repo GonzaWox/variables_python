@@ -11,9 +11,9 @@
 # Ejemplos variables de texto
 
 # Ingrese dos palabras y arme combinaciones con ella
-palabra_1 = str(input('Ingrese palabra 1:'))
+# palabra_1 = str(input('Ingrese palabra 1:'))
 
-palabra_2 = str(input('Ingrese palabra 2:'))
+#palabra_2 = str(input('Ingrese palabra 2:'))
 
 # Objetivo:
 # De la primera palabra tome las primeras tres letras,
@@ -28,3 +28,14 @@ palabra_2 = str(input('Ingrese palabra 2:'))
 
 
 # Imprima en pantalla la variable palabra_combinada
+
+#.
+# Comienzo de codigo por Gonzalo Larrea ///
+
+palabra_1 = str(input('Ingrese la primer palabra:'))
+
+palabra_2 = str(input('Ingrese la segunda palabra:'))
+
+palabra_combinada = palabra_1[:3] + palabra_2[:2]
+
+print(palabra_combinada)
